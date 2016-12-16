@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  PhotoViewController.h
 //  YLTagView
 //
 //  Created by yongliangP on 2016/12/7.
@@ -8,10 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface PhotoViewController : UIViewController
 
-@property (strong, nonatomic) UIWindow *window;
-
+@property (nonatomic, strong) UIImage *editImage;
 
 @end
-

@@ -7,25 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA112EB31DFE4F3600B7CA1E /* YLInsetLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = BA112EB21DFE4F3600B7CA1E /* YLInsetLabel.m */; };
 		BA12BD091DF7AEA200799F67 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BA12BD081DF7AEA200799F67 /* main.m */; };
 		BA12BD0C1DF7AEA200799F67 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA12BD0B1DF7AEA200799F67 /* AppDelegate.m */; };
-		BA12BD0F1DF7AEA200799F67 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA12BD0E1DF7AEA200799F67 /* ViewController.m */; };
 		BA12BD121DF7AEA200799F67 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA12BD101DF7AEA200799F67 /* Main.storyboard */; };
 		BA12BD141DF7AEA200799F67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA12BD131DF7AEA200799F67 /* Assets.xcassets */; };
 		BA12BD171DF7AEA200799F67 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA12BD151DF7AEA200799F67 /* LaunchScreen.storyboard */; };
+		BA12BD231DF7AF3C00799F67 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA12BD201DF7AF3C00799F67 /* ViewController.m */; };
+		BA12BD271DF7B14E00799F67 /* PhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA12BD251DF7B14E00799F67 /* PhotoViewController.m */; };
+		BA12BD281DF7B14E00799F67 /* PhotoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA12BD261DF7B14E00799F67 /* PhotoViewController.xib */; };
+		BA12BD2E1DF7C3CC00799F67 /* YLTagView.m in Sources */ = {isa = PBXBuildFile; fileRef = BA12BD2D1DF7C3CC00799F67 /* YLTagView.m */; };
+		BA35E2311E028568003AA3E4 /* ShowPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA35E22F1E028568003AA3E4 /* ShowPhotoViewController.m */; };
+		BA35E2321E028568003AA3E4 /* ShowPhotoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA35E2301E028568003AA3E4 /* ShowPhotoViewController.xib */; };
+		BA35E2351E028B86003AA3E4 /* YLTagModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BA35E2341E028B86003AA3E4 /* YLTagModel.m */; };
+		BA460A561E03B933003C96E7 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = BA460A551E03B933003C96E7 /* UIView+Frame.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BA112EB11DFE4F3600B7CA1E /* YLInsetLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLInsetLabel.h; sourceTree = "<group>"; };
+		BA112EB21DFE4F3600B7CA1E /* YLInsetLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLInsetLabel.m; sourceTree = "<group>"; };
 		BA12BD041DF7AEA200799F67 /* YLTagView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YLTagView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA12BD081DF7AEA200799F67 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BA12BD0A1DF7AEA200799F67 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BA12BD0B1DF7AEA200799F67 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		BA12BD0D1DF7AEA200799F67 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		BA12BD0E1DF7AEA200799F67 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		BA12BD111DF7AEA200799F67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BA12BD131DF7AEA200799F67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA12BD161DF7AEA200799F67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BA12BD181DF7AEA200799F67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA12BD1F1DF7AF3C00799F67 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BA12BD201DF7AF3C00799F67 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BA12BD241DF7B14E00799F67 /* PhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoViewController.h; sourceTree = "<group>"; };
+		BA12BD251DF7B14E00799F67 /* PhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoViewController.m; sourceTree = "<group>"; };
+		BA12BD261DF7B14E00799F67 /* PhotoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PhotoViewController.xib; sourceTree = "<group>"; };
+		BA12BD291DF7B85E00799F67 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		BA12BD2A1DF7B9C800799F67 /* Define.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Define.h; sourceTree = "<group>"; };
+		BA12BD2C1DF7C3CC00799F67 /* YLTagView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLTagView.h; sourceTree = "<group>"; };
+		BA12BD2D1DF7C3CC00799F67 /* YLTagView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLTagView.m; sourceTree = "<group>"; };
+		BA35E22E1E028568003AA3E4 /* ShowPhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowPhotoViewController.h; sourceTree = "<group>"; };
+		BA35E22F1E028568003AA3E4 /* ShowPhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowPhotoViewController.m; sourceTree = "<group>"; };
+		BA35E2301E028568003AA3E4 /* ShowPhotoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShowPhotoViewController.xib; sourceTree = "<group>"; };
+		BA35E2331E028B86003AA3E4 /* YLTagModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLTagModel.h; sourceTree = "<group>"; };
+		BA35E2341E028B86003AA3E4 /* YLTagModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLTagModel.m; sourceTree = "<group>"; };
+		BA460A541E03B933003C96E7 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		BA460A551E03B933003C96E7 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,15 +82,19 @@
 		BA12BD061DF7AEA200799F67 /* YLTagView */ = {
 			isa = PBXGroup;
 			children = (
+				BA12BD2B1DF7C3CC00799F67 /* YLTagView */,
+				BA12BD1E1DF7AF3C00799F67 /* Controller */,
+				BA12BD211DF7AF3C00799F67 /* Modle */,
+				BA12BD221DF7AF3C00799F67 /* View */,
 				BA12BD0A1DF7AEA200799F67 /* AppDelegate.h */,
 				BA12BD0B1DF7AEA200799F67 /* AppDelegate.m */,
-				BA12BD0D1DF7AEA200799F67 /* ViewController.h */,
-				BA12BD0E1DF7AEA200799F67 /* ViewController.m */,
 				BA12BD101DF7AEA200799F67 /* Main.storyboard */,
 				BA12BD131DF7AEA200799F67 /* Assets.xcassets */,
 				BA12BD151DF7AEA200799F67 /* LaunchScreen.storyboard */,
 				BA12BD181DF7AEA200799F67 /* Info.plist */,
 				BA12BD071DF7AEA200799F67 /* Supporting Files */,
+				BA12BD291DF7B85E00799F67 /* PrefixHeader.pch */,
+				BA12BD2A1DF7B9C800799F67 /* Define.h */,
 			);
 			path = YLTagView;
 			sourceTree = "<group>";
@@ -77,6 +105,50 @@
 				BA12BD081DF7AEA200799F67 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BA12BD1E1DF7AF3C00799F67 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BA12BD1F1DF7AF3C00799F67 /* ViewController.h */,
+				BA12BD201DF7AF3C00799F67 /* ViewController.m */,
+				BA12BD241DF7B14E00799F67 /* PhotoViewController.h */,
+				BA12BD251DF7B14E00799F67 /* PhotoViewController.m */,
+				BA12BD261DF7B14E00799F67 /* PhotoViewController.xib */,
+				BA35E22E1E028568003AA3E4 /* ShowPhotoViewController.h */,
+				BA35E22F1E028568003AA3E4 /* ShowPhotoViewController.m */,
+				BA35E2301E028568003AA3E4 /* ShowPhotoViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BA12BD211DF7AF3C00799F67 /* Modle */ = {
+			isa = PBXGroup;
+			children = (
+				BA35E2331E028B86003AA3E4 /* YLTagModel.h */,
+				BA35E2341E028B86003AA3E4 /* YLTagModel.m */,
+			);
+			path = Modle;
+			sourceTree = "<group>";
+		};
+		BA12BD221DF7AF3C00799F67 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BA12BD2B1DF7C3CC00799F67 /* YLTagView */ = {
+			isa = PBXGroup;
+			children = (
+				BA460A541E03B933003C96E7 /* UIView+Frame.h */,
+				BA460A551E03B933003C96E7 /* UIView+Frame.m */,
+				BA12BD2C1DF7C3CC00799F67 /* YLTagView.h */,
+				BA12BD2D1DF7C3CC00799F67 /* YLTagView.m */,
+				BA112EB11DFE4F3600B7CA1E /* YLInsetLabel.h */,
+				BA112EB21DFE4F3600B7CA1E /* YLInsetLabel.m */,
+			);
+			path = YLTagView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -110,7 +182,7 @@
 				TargetAttributes = {
 					BA12BD031DF7AEA200799F67 = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = WKR87TTKML;
+						DevelopmentTeam = 72LA85G59H;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -139,7 +211,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA12BD171DF7AEA200799F67 /* LaunchScreen.storyboard in Resources */,
+				BA12BD281DF7B14E00799F67 /* PhotoViewController.xib in Resources */,
 				BA12BD141DF7AEA200799F67 /* Assets.xcassets in Resources */,
+				BA35E2321E028568003AA3E4 /* ShowPhotoViewController.xib in Resources */,
 				BA12BD121DF7AEA200799F67 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -151,9 +225,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA12BD0F1DF7AEA200799F67 /* ViewController.m in Sources */,
 				BA12BD0C1DF7AEA200799F67 /* AppDelegate.m in Sources */,
+				BA12BD2E1DF7C3CC00799F67 /* YLTagView.m in Sources */,
+				BA35E2311E028568003AA3E4 /* ShowPhotoViewController.m in Sources */,
+				BA460A561E03B933003C96E7 /* UIView+Frame.m in Sources */,
+				BA35E2351E028B86003AA3E4 /* YLTagModel.m in Sources */,
+				BA12BD271DF7B14E00799F67 /* PhotoViewController.m in Sources */,
+				BA12BD231DF7AF3C00799F67 /* ViewController.m in Sources */,
 				BA12BD091DF7AEA200799F67 /* main.m in Sources */,
+				BA112EB31DFE4F3600B7CA1E /* YLInsetLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,8 +353,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = WKR87TTKML;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 72LA85G59H;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/YLTagView/PrefixHeader.pch";
 				INFOPLIST_FILE = YLTagView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = yongliangP.YLTagView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -285,8 +369,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = WKR87TTKML;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 72LA85G59H;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/YLTagView/PrefixHeader.pch";
 				INFOPLIST_FILE = YLTagView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = yongliangP.YLTagView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -312,6 +400,7 @@
 				BA12BD1D1DF7AEA200799F67 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

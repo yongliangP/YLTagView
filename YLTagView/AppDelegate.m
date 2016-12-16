@@ -2,7 +2,7 @@
 //  AppDelegate.m
 //  YLTagView
 //
-//  Created by 彭永亮 on 2016/12/7.
+//  Created by yongliangP on 2016/12/7.
 //  Copyright © 2016年 yongliangP. All rights reserved.
 //
 
@@ -15,7 +15,8 @@
 @implementation AppDelegate
 
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+{
     // Override point for customization after application launch.
     return YES;
 }

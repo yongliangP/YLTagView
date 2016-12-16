@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PhotoViewController">
+            <connections>
+                <outlet property="imageView" destination="v3J-jA-vdD" id="wmi-PD-eHP"/>
+                <outlet property="imageViewHeight" destination="myB-Lm-taN" id="3JT-e9-7pL"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="v3J-jA-vdD">
+                    <rect key="frame" x="0.0" y="114" width="375" height="200"/>
+                    <gestureRecognizers/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="200" id="myB-Lm-taN"/>
+                    </constraints>
+                    <connections>
+                        <outletCollection property="gestureRecognizers" destination="t6M-D4-dge" appends="YES" id="wc3-aQ-gyg"/>
+                    </connections>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="v3J-jA-vdD" secondAttribute="trailing" id="50H-0A-Oii"/>
+                <constraint firstItem="v3J-jA-vdD" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Pc6-Zj-PSr"/>
+                <constraint firstItem="v3J-jA-vdD" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="114" id="blp-ZZ-MF1"/>
+            </constraints>
+        </view>
+        <tapGestureRecognizer id="t6M-D4-dge">
+            <connections>
+                <action selector="imageViewTap:" destination="-1" id="RuB-NY-yvk"/>
+            </connections>
+        </tapGestureRecognizer>
+    </objects>
+</document>
