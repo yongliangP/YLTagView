@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "YLTagView"
-  s.version      = "1.02"
+  s.version      = "1.1.0"
   s.summary      = "给图片添加标签，仿市面上主流App如nice等"
 
   # This description is used to generate tags and improve search results.
