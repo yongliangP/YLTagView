@@ -1,12 +1,12 @@
 //
-//  UIView+Extension.m
-//  MJRefreshExample
+//  UIView+YLFrame.m
+//  YLTagView
 //
-//  Created by MJ Lee on 14-5-28.
-//  Copyright (c) 2014年 itcast. All rights reserved.
+//  Created by yongliangP on 16/5/5.
+//  Copyright © 2016年 yongliangP. All rights reserved.
 //
 
-#import "UIView+Frame.h"
+#import "UIView+YLFrame.h"
 
 @implementation UIView (Frame)
 

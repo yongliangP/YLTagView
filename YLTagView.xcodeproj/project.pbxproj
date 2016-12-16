@@ -20,7 +20,7 @@
 		BA35E2311E028568003AA3E4 /* ShowPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA35E22F1E028568003AA3E4 /* ShowPhotoViewController.m */; };
 		BA35E2321E028568003AA3E4 /* ShowPhotoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA35E2301E028568003AA3E4 /* ShowPhotoViewController.xib */; };
 		BA35E2351E028B86003AA3E4 /* YLTagModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BA35E2341E028B86003AA3E4 /* YLTagModel.m */; };
-		BA460A561E03B933003C96E7 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = BA460A551E03B933003C96E7 /* UIView+Frame.m */; };
+		BA460A561E03B933003C96E7 /* UIView+YLFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = BA460A551E03B933003C96E7 /* UIView+YLFrame.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,8 +48,8 @@
 		BA35E2301E028568003AA3E4 /* ShowPhotoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShowPhotoViewController.xib; sourceTree = "<group>"; };
 		BA35E2331E028B86003AA3E4 /* YLTagModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLTagModel.h; sourceTree = "<group>"; };
 		BA35E2341E028B86003AA3E4 /* YLTagModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLTagModel.m; sourceTree = "<group>"; };
-		BA460A541E03B933003C96E7 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
-		BA460A551E03B933003C96E7 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		BA460A541E03B933003C96E7 /* UIView+YLFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+YLFrame.h"; sourceTree = "<group>"; };
+		BA460A551E03B933003C96E7 /* UIView+YLFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+YLFrame.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,8 +141,8 @@
 		BA12BD2B1DF7C3CC00799F67 /* YLTagView */ = {
 			isa = PBXGroup;
 			children = (
-				BA460A541E03B933003C96E7 /* UIView+Frame.h */,
-				BA460A551E03B933003C96E7 /* UIView+Frame.m */,
+				BA460A541E03B933003C96E7 /* UIView+YLFrame.h */,
+				BA460A551E03B933003C96E7 /* UIView+YLFrame.m */,
 				BA12BD2C1DF7C3CC00799F67 /* YLTagView.h */,
 				BA12BD2D1DF7C3CC00799F67 /* YLTagView.m */,
 				BA112EB11DFE4F3600B7CA1E /* YLInsetLabel.h */,
@@ -228,7 +228,7 @@
 				BA12BD0C1DF7AEA200799F67 /* AppDelegate.m in Sources */,
 				BA12BD2E1DF7C3CC00799F67 /* YLTagView.m in Sources */,
 				BA35E2311E028568003AA3E4 /* ShowPhotoViewController.m in Sources */,
-				BA460A561E03B933003C96E7 /* UIView+Frame.m in Sources */,
+				BA460A561E03B933003C96E7 /* UIView+YLFrame.m in Sources */,
 				BA35E2351E028B86003AA3E4 /* YLTagModel.m in Sources */,
 				BA12BD271DF7B14E00799F67 /* PhotoViewController.m in Sources */,
 				BA12BD231DF7AF3C00799F67 /* ViewController.m in Sources */,
