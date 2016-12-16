@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "YLTagView"
-  s.version      = "1.0"
+  s.version      = "1.01"
   s.summary      = "给图片添加标签，仿市面上主流App如nice等"
 
   # This description is used to generate tags and improve search results.
@@ -24,7 +24,8 @@ Pod::Spec.new do |s|
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  s.description  = <<-DESC
+   s.description  = <<-DESC
+                   It is a  view used on iOS, which implement by Objective-C.
                    DESC
 
   s.homepage     = "https://github.com/yongliangP/YLTagView"
@@ -117,7 +118,7 @@ Pod::Spec.new do |s|
   #
 
   # s.framework  = "SomeFramework"
-  # s.frameworks = "SomeFramework", "AnotherFramework"
+   s.frameworks = "Foundation", "UIKit"
 
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"
